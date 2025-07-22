@@ -1,0 +1,21 @@
+/* Keep root styles and add background image */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Optional: creates parallax effect */
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  /* Optional overlay to improve readability */
+  background-color: rgba(255, 255, 255, 0.3); /* Light overlay */
+  background-blend-mode: overlay;
+}
